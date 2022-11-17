@@ -32,6 +32,7 @@ public class Dashboard extends JFrame {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
+					System.out.println("2nd commit");
 					new Dashboard();
 				} catch (Exception e) {
 					e.printStackTrace();
